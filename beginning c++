@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+        //variaveis
+        float bMaior, bMenor, area, altura;
+        
+        //entrada
+        cout << "qual é a base maior? ";
+        cin >> bMaior;
+        
+        cout << "qual é a base menor? ";
+        cin >> bMenor;
+        
+        cout << "Qual é a altura? ";
+        cin >> altura;
+        
+        //processamento
+        
+        area = (bMaior + bMenor) * altura / 2;
+        
+        //saida
+        cout << "A area de seu trapezio é:" << area;
+
+    return 0;
+}
