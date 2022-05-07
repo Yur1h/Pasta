@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //declaração de variaveis
+    float diaria, total1, total2;
+    
+    
+    //entrada de dados
+    cout << "quantos dias voce ficará? ";
+    cin >> diaria;
+    
+    //processamento
+    
+    if (diaria > 10)
+    {
+        total1 = diaria * 120;
+        cout << "você terá que pagar: " << total1;
+    }
+    
+    else 
+    {
+        total2 = diaria * 125;
+        cout << "você terá que pagar: " << total2;
+    }
+
+    return 0;
+}
